@@ -1,128 +1,128 @@
-# Fábio Mendes
+<div align="center">
 
-**Security-focused ServiceOps Engineer** · Sysadmin & Dev in C/Python · Securing and automating infrastructure with Linux/Proxmox, Docker & CI/CD
+# Fábio Mendes · `mendsec`
 
----
+**Pentest & Red Team · ServiceOps Engineering · Systems Security**
 
-## 🚀 About Me
+[![X (Twitter)](https://img.shields.io/badge/@mendsec-%23000000.svg?style=flat&logo=x&logoColor=white)](https://x.com/mendsec)
+[![LinkedIn](https://img.shields.io/badge/in%2Fmendsec-%230A66C2.svg?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mendsec)
+[![Email](https://img.shields.io/badge/fabiomendes@mailfence.com-%23009688.svg?style=flat&logo=minutemailer&logoColor=white)](mailto:fabiomendes@mailfence.com)
+[![GitHub followers](https://img.shields.io/github/followers/mendsec?style=flat&label=Followers&color=555)](https://github.com/mendsec?tab=followers)
+[![Stars](https://img.shields.io/badge/⭐%202k%20Stars-earned-%23f5a623?style=flat)](https://github.com/mendsec?tab=stars)
 
-I'm a security-oriented systems engineer with a strong background in infrastructure automation, cybersecurity, and backend/system tooling. I specialize in designing and operating **secure, reliable service delivery platforms** that bridge deep sysadmin expertise with modern software development practices.
+*Security-focused engineer operating between offensive security and infrastructure hardening.*  
+*Amazon-born · Porto Velho, RO · Brazil*
 
-My technical work centers on:
-- **Infrastructure Automation & Operations**: Linux/Proxmox, Docker, CI/CD pipelines, automated provisioning and maintenance
-- **Cybersecurity**: Network scanning, vulnerability assessment, hardening, secure architecture and defense strategies
-- **ServiceOps & Platform Engineering**: Multi-tenant environments, VPS/SaaS platforms, observability and reliability
-- **Polyglot Development**: C, Python, Shell, Go, JavaScript (practical, product-focused, not hype-driven)
-
-I contribute actively to open-source projects and lead initiatives at organizations like **MadeiraHackerSpace**, balancing hands-on coding with architecture and operational decisions.
-
----
-
-## 📌 Flagship Projects
-
-### [**catnet_scanner**](https://github.com/mendsec/catnet_scanner) · C
-A high-performance network scanner built for security professionals. Designed for internal corporate networks, providing granular control over scanning behavior, timing, and output formats.
-
-**Tech**: C, low-level networking, custom protocol handling  
-**Why it matters**: Pure C implementation showcases systems-level thinking, performance tuning and security discipline.
+</div>
 
 ---
 
-### [**mhc-cloud-panel**](https://github.com/MadeiraHackerSpace/mhc-cloud-panel) · Python/Proxmox
-Multi-tenant cloud panel for VPS resale and infrastructure management. Built on Proxmox VE, enabling MSPs to manage customer virtual machines, billing, and resource allocation through a unified control plane.
+## About
 
-**Tech**: Python, Proxmox API, PostgreSQL, REST APIs, multi-tenancy patterns  
-**Impact**: Powers real infrastructure management for MadeiraHackerSpace's cloud services.
+I'm a security engineer with a background in **penetration testing, red team operations, and infrastructure hardening**. My work bridges the gap between offensive security thinking and real-world defensive implementation — I break things to understand how to build them better.
 
----
+Beyond the offensive side, I design and operate **secure service delivery platforms**: multi-tenant infrastructure, automated deployments, and hardened systems running in production. I write systems-level code in **Go and Python**, favour Linux-native tooling, and care deeply about reproducibility and operational discipline.
 
-### [**odoo-serviceops**](https://github.com/mendsec/odoo-serviceops) · Infra/Odoo/Shell/Python
-ServiceOps-focused platform for running **Odoo Community** as a business-critical application on secure, automated infrastructure. Includes containerization, CI/CD integration and operational tooling for IT service companies.
-
-**Tech**: Linux, Docker, Shell scripting, Python, PostgreSQL, Odoo Community  
-**Focus**: Treating ERP as a mission-critical workload — automating deployment, updates, backup and hardening in a reproducible way.
+Currently leading open-source initiatives at **MadeiraHackerSpace** and contributing to **Portosoft**, applying security-first engineering to real services.
 
 ---
 
-## 🛠️ Technical Skills
+## Flagship Projects
 
-| Category | Technologies |
-|----------|-------------|
-| **Languages** | C, Python, Shell/Bash, Go, JavaScript, Lua |
-| **Infrastructure** | Linux, Proxmox VE, Docker, basic Kubernetes concepts, CI/CD (GitHub Actions, GitLab CI) |
-| **Automation & IaC** | Ansible, scripting for provisioning and maintenance, (Terraform – in learning/adoption) |
-| **Platforms** | Self-hosted apps (e.g. Odoo ERP), PostgreSQL, Redis, Nginx |
-| **Security** | Network scanning, vulnerability assessment, hardening, secure service operations |
-| **DevOps/ServiceOps** | Automated deployments, monitoring & logging, multi-tenant architectures, backup & recovery practices |
+### [`catnet_scanner`](https://github.com/mendsec/catnet_scanner) — Go
+A high-performance network scanner for security professionals. Refactored to Go for improved concurrency, cross-platform builds, and maintainability — without sacrificing the performance and control that make it useful in real engagements.
+
+> Go · Concurrent scanning · Custom protocol handling · Performance-tuned for red team use
 
 ---
 
-## 📈 Open Source & Community
+### [`mhc-cloud-panel`](https://github.com/MadeiraHackerSpace/mhc-cloud-panel) — Python / Proxmox VE
+Multi-tenant cloud management panel for VPS provisioning and resale, built on the Proxmox API. Handles VM lifecycle, resource quotas, billing integration, and customer isolation in a unified control plane.
 
-I maintain an active presence in open-source ecosystems:
-
-- **Arctic Code Vault Contributor** – Code preserved in GitHub's Arctic Code Vault  
-- **Pull Shark** – Meaningful pull requests across multiple projects  
-- **Organization Lead** – Active contributor and maintainer at **MadeiraHackerSpace**
-
-### Selected Contributions & Collaborations
-- Infrastructure automation scripts and DevOps tooling for Linux/Proxmox environments
-- Proxmox ecosystem integrations and operational workflows
-- Security-focused tooling in C and Python (scanners, helpers, internal tools)
-- Multi-tenant and service-oriented patterns for self-hosted platforms
+> Python · Proxmox VE API · PostgreSQL · REST · Multi-tenancy · Production use
 
 ---
 
-## 📚 Learning & Growth
+### [`odoo-serviceops`](https://github.com/mendsec/odoo-serviceops) — Shell / Python / Docker
+Infrastructure-as-code approach to running Odoo Community as a mission-critical, security-hardened service. Automated deployment, update pipelines, backup orchestration, and hardening scripts — treating ERP like infrastructure.
 
-I'm a disciplined lifelong learner. My **[learning repositories](https://github.com/mendsec?tab=repositories&q=learning)** document structured study across:
-
-- Language paradigms (C, Go, Rust, Dart)
-- Modern frameworks and tooling
-- Security research, scanning and exploitation techniques
-- Systems programming and low-level optimization
-
-Each learning project includes clear objectives and practical experiments—documenting real growth, not just content consumption.
+> Docker · CI/CD · Shell · Python · Odoo Community · Reproducible deployments
 
 ---
 
-## 💬 Let's Connect
+## Technical Profile
 
-I'm always interested in:
-
-- **Security & Infrastructure discussions** – networks, hardening, threat modeling, secure operations
-- **Open-source collaboration** – especially infrastructure tooling, security tools and DevOps/ServiceOps
-- **Platform Engineering & ServiceOps** – designing systems that scale securely and are operable in the real world
-- **Mentorship** – helping others break into security and systems engineering
-
-**Reach out via:**
-- 🐦 **Twitter/X**: [@mendsec](https://x.com/mendsec)
-- 📧 **Email**: [fabiomendes@mailfence.com](mailto:fabiomendes@mailfence.com)
-- 🌐 **GitHub**: You're here!
+| Domain | Stack |
+|---|---|
+| **Offensive Security** | Network scanning, vulnerability assessment, enumeration, exploitation fundamentals |
+| **Languages** | C · Python · Shell/Bash · Go · JavaScript · Lua |
+| **Infrastructure** | Linux · Proxmox VE · Docker · Ansible · GitHub Actions · GitLab CI |
+| **Platforms** | PostgreSQL · Redis · Nginx · Odoo ERP · Self-hosted services |
+| **Security Engineering** | Hardening · Secure architecture · Threat modelling · CI/CD security · IaC auditing |
+| **Automation** | Terraform (adopting) · Ansible playbooks · Scripted provisioning · Backup & recovery |
 
 ---
 
-## 🌱 Current Focus (2026)
+## Open Source & Community
 
-- Hardening multi-tenant infrastructure and isolation models
-- Advancing ServiceOps automation and observability for self-hosted platforms
-- Contributing to ecosystem tools around Proxmox and open infrastructure
-- Mentoring junior engineers in systems thinking and secure development
+| Achievement | Notes |
+|---|---|
+| 🏔️ **Arctic Code Vault Contributor** | Code preserved in GitHub's long-term archive |
+| 🦈 **Pull Shark** | Impactful pull requests across multiple projects |
+| 🎯 **YOLO** | Merged without hesitation |
+| 🏛️ **Organization Lead** | Active maintainer at [MadeiraHackerSpace](https://github.com/MadeiraHackerSpace) |
+| 🏢 **Contributor** | Engineering member at [Portosoft](https://github.com/portosoft) |
+
+**35 repositories · 2k stars earned · GitHub Pro**
+
+Key contribution areas:
+- Network and security tooling in Go and Python
+- Proxmox VE API integrations and automation
+- Multi-tenant SaaS infrastructure patterns
+- ServiceOps and hardened deployment workflows
 
 ---
 
-## 📊 Recent Activity
+## Learning & Research
+
+My [`learning/`](https://github.com/mendsec?tab=repositories&q=learning) repositories document structured, hands-on study — not content consumption:
+
+- **Offensive techniques**: exploitation concepts, scanning internals, enumeration workflows
+- **Systems programming**: Go concurrency model, goroutines, low-level I/O, network primitives
+- **Language paradigms**: Rust, Dart, Go — with practical experiments
+- **Security architecture**: threat modelling, secure design patterns, hardening strategies
+
+---
+
+## Current Focus — 2026
+
+- **Red team tooling**: extending `catnet_scanner` with additional protocol support and evasion techniques
+- **Infrastructure hardening**: isolation models, privilege separation, and auditing for multi-tenant environments
+- **ServiceOps maturity**: observability, incident response, and automated remediation for self-hosted platforms
+- **Open-source contributions**: Proxmox ecosystem, security tooling, infrastructure automation
+- **Mentoring**: helping engineers think about systems through a security lens
+
+---
+
+## Recent Activity
 
 ```
-May 2026:     ████████████░░░░░░░░ 34 commits (odoo-serviceops, catnet_scanner, mhc-cloud-panel)
-Apr 2026:     ████████░░░░░░░░░░░░ 18 commits
-Mar 2026:     ████░░░░░░░░░░░░░░░░  8 commits
-...
-2025–2026:    Consistent contributions · Focus on platform stability & security hardening
+Jun 2026:     Active  · catnet_scanner, odoo-serviceops, mhc-cloud-panel
+May 2026:     ████████████░░  34 commits
+Apr 2026:     ████████░░░░░░  18 commits
+Mar 2026:     ████░░░░░░░░░░   8 commits
+
+2025–2026: Consistent output · Security-first platform work
 ```
 
 ---
 
-**Always exploring. Always building. Always securing.**
+<div align="center">
 
-*Last updated: May 2026*
+*Offensive mindset. Defensive discipline. Always building.*
+
+**Porto Velho, RO · Brazil · UTC −04:00**
+
+*Last updated: June 2026*
+
+</div>

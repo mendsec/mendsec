@@ -11,7 +11,7 @@
 [![Stars](https://img.shields.io/badge/⭐%202k%20Stars-earned-%23f5a623?style=flat)](https://github.com/mendsec?tab=stars)
 
 *Security-focused engineer operating between offensive security and infrastructure hardening.*  
-*Amazon-born · Porto Velho, RO · Brazil*
+*Amazon-born · RO · Brazil*
 
 </div>
 
@@ -121,7 +121,7 @@ Mar 2026:     ████░░░░░░░░░░   8 commits
 
 *Offensive mindset. Defensive discipline. Always building.*
 
-**Porto Velho, RO · Brazil · UTC −04:00**
+**RO · Brazil · UTC −04:00**
 
 *Last updated: June 2026*
 

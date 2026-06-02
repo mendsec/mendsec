@@ -29,7 +29,7 @@ Currently leading open-source initiatives at **MadeiraHackerSpace** and contribu
 
 ## Flagship Projects
 
-### [`catnet_scanner`](https://github.com/mendsec/catnet_scanner) — Go
+### [`catnet-scanner`](https://github.com/mendsec/catnet-scanner) — Go
 A high-performance network scanner for security professionals. Refactored to Go for improved concurrency, cross-platform builds, and maintainability — without sacrificing the performance and control that make it useful in real engagements.
 
 > Go · Concurrent scanning · Custom protocol handling · Performance-tuned for red team use

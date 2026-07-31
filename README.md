@@ -1,83 +1,108 @@
-<div align="center">
+# Fábio Mendes
 
-# Fábio Mendes · `mendsec`
-
-**Security Engineer · Offensive & Defensive**
-
-_Building the tools that find gaps. Running the systems that close them._
-
-[![X (Twitter)](https://img.shields.io/badge/@mendsec-%23000000.svg?style=flat&logo=x&logoColor=white)](https://x.com/mendsec)
-[![LinkedIn](https://img.shields.io/badge/in%2Fmendsec-%230A66C2.svg?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mendsec)
-[![Email](https://img.shields.io/badge/fabiomendes@mailfence.com-%23009688.svg?style=flat&logo=minutemailer&logoColor=white)](mailto:fabiomendes@mailfence.com)
-[![GitHub followers](https://img.shields.io/github/followers/mendsec?style=flat&label=Followers&color=555)](https://github.com/mendsec?tab=followers)
-
-RO · Brazil · UTC −04:00
-
-</div>
+**Security-focused ServiceOps Engineer** & **Indie Game Co-Founder** · Sysadmin & Dev in Go/Python/C · Building automated infrastructure with Proxmox, Odoo, Docker & CI/CD
 
 ---
 
-## What I do
+## About Me
 
-I work across both sides of the security boundary. On the offensive side, I build tooling and run assessments — network enumeration, protocol analysis, red team infrastructure. On the defensive side, I design and operate hardened multi-tenant platforms in production.
+Security-oriented systems engineer with a background in infrastructure automation, cybersecurity, and full-stack development. I design and implement scalable, secure service delivery platforms that bridge sysadmin expertise with modern software engineering practices.
 
-That dual exposure isn't incidental. Understanding how systems fail under adversarial pressure is what makes me a better architect — and running real infrastructure is what keeps my threat model grounded.
+Since 2026 I've also co-founded **AuraOne Studios**, a two-person indie game studio, handling studio operations and delivery infrastructure alongside my core security and platform engineering work.
 
-I write primarily in **Go** and Python. I care about correctness, auditability, and operational reproducibility.
+My technical work centers on:
 
----
+- **Infrastructure Automation**: Proxmox, Docker, CI/CD pipelines, Odoo-based service delivery platforms
+- **Cybersecurity**: Network scanning, vulnerability assessment, hardening, defense strategies
+- **Systems Engineering**: Event-driven architecture, modular CLI/GUI/TUI ecosystems in Go
+- **Game Development**: Studio operations, web/landing infrastructure, bilingual product delivery
+- **Polyglot Development**: Go, Python, C, TypeScript, Shell
 
-## Work
-
-### [`catnet`](https://github.com/mendsec/catnet) — Network Scanner (Go)
-
-A concurrent network scanner built for real engagements. Refactored from the ground up in Go: zero external dependencies in the core engine, context-based cancellation, race-detector-clean, and a scriptable CLI consumer. Designed to be extended, not just used.
-
-> Concurrent scanning · Custom protocol handling · Clean architecture · CI with govulncheck
+I contribute actively to open-source projects and lead initiatives at **MadeiraHackerSpace**, balancing hands-on coding with strategic architecture decisions.
 
 ---
 
-### [`mhc-cloud-panel`](https://github.com/MadeiraHackerSpace/mhc-cloud-panel) — Multi-tenant Cloud Panel (Python)
+## Flagship Projects
 
-VPS provisioning and management platform built on the Proxmox VE API. Handles VM lifecycle, resource isolation, billing, and customer boundaries in a unified control plane. In production at MadeiraHackerSpace.
+### [**catnet**](https://github.com/catnet-io) · Go · Security
 
-> Proxmox VE · PostgreSQL · REST API · Multi-tenancy · Isolation boundaries
+A modular, event-driven network scanning ecosystem built for security professionals, reorganized in 2026 into its own [`catnet-io`](https://github.com/catnet-io) organization following the `client-go` / `kubectl` / `k9s` architecture pattern:
 
----
+| Component | Role |
+| --- | --- |
+| [`engine`](https://github.com/catnet-io/engine) | Core scan logic — zero CGO, zero external deps, channel-based event API |
+| [`catnet`](https://github.com/catnet-io/catnet) | CLI consumer of the engine |
+| [`app`](https://github.com/catnet-io/app) | Wails + React desktop GUI |
+| [`tui`](https://github.com/catnet-io/tui) | Terminal UI, currently in active development |
 
-### [`odoo-serviceops`](https://github.com/mendsec/odoo-serviceops) — Hardened ERP Infrastructure (Shell / Docker)
-
-Infrastructure-as-code approach to running Odoo Community as a security-conscious service. Automated deployment, update pipelines, backup orchestration, and hardening applied end-to-end — treating ERP like the attack surface it is.
-
-> Docker · CI/CD · Ansible · Privilege separation · Reproducible deployments
-
----
-
-## Technical profile
-
-| Domain | Detail |
-|---|---|
-| **Offensive** | Network scanning, enumeration, red team infrastructure |
-| **Defensive** | Hardening, secure architecture, threat modelling, IaC auditing |
-| **Languages** | Go · Python · Shell · C · Lua · JavaScript |
-| **Infrastructure** | Linux · Proxmox VE · Docker · Ansible · GitHub Actions |
-| **Platforms** | PostgreSQL · Nginx · Redis · Odoo · Self-hosted services |
+**Why it matters**: strict separation between scan logic and frontends means every client — CLI, desktop, terminal, eventually mobile — stays a thin, swappable consumer of the same engine.
 
 ---
 
-## Currently
+### [**Overloaded**](https://auraonestudios.github.io/overloaded-game) · Construct 3 · AuraOne Studios
 
-- Extending `catnet` with additional protocol coverage and evasion-aware scanning
-- Hardening isolation and privilege separation in multi-tenant environments
-- Improving observability and incident response posture for self-hosted platforms
-- Contributing to Proxmox tooling and security automation open-source
+Co-founder of **AuraOne Studios**, a two-person indie game studio. *Overloaded* is our first release — a top-down horde survivor for desktop browsers, starring Lizzie (melee/mobility) and Archie (robot support companion).
+
+**My role**: studio administration, web/landing infrastructure (bilingual EN/PT, CI/CD via GitHub Actions, CodeQL, Dependabot), and everything outside 2D art and game design.
 
 ---
 
-<div align="center">
+### [**mhc-cloud-panel**](https://github.com/MadeiraHackerSpace/mhc-cloud-panel) · Python/Proxmox
 
-Active at [MadeiraHackerSpace](https://github.com/MadeiraHackerSpace) and [Portosoft](https://github.com/portosoft).
+Multi-tenant SaaS platform for VPS resale and infrastructure management, built on Proxmox VE — enabling MSPs to manage customer VMs, billing, and resource allocation through a unified control plane.
 
-_Last updated: June 2026_
+**Impact**: powers real infrastructure management for MadeiraHackerSpace's cloud services.
 
-</div>
+---
+
+### [**odoo-serviceops**](https://github.com/mendsec/odoo-serviceops) · Odoo/Shell/Python
+
+Enterprise service delivery platform combining Odoo Community with automation for IT service companies — Docker containerization, CI/CD integration, and custom service-ops modules.
+
+---
+
+## Technical Skills
+
+| Category | Technologies |
+| --- | --- |
+| **Languages** | Go, Python, TypeScript, C, Shell/Bash |
+| **Infrastructure** | Proxmox VE, Docker, CI/CD (GitHub Actions, GitLab CI) |
+| **Platforms** | Odoo ERP, Linux, PostgreSQL, Redis |
+| **Security** | Network scanning, vulnerability assessment, hardening, secure API design |
+| **Game Dev / Web** | Construct 3, bilingual product delivery, static site CI/CD |
+
+---
+
+## Current Focus (2026)
+
+- Stabilizing the `catnet-io` ecosystem — aligning `engine`, `catnet`, `app`, and `tui` release versions and CHANGELOGs
+- Shipping *Overloaded* and building out AuraOne Studios' web presence
+- Hardening multi-tenant infrastructure security models
+- Mentoring junior engineers in systems thinking and secure development
+
+---
+
+## Let's Connect
+
+Open to:
+
+- **Security & infrastructure discussions** – networks, hardening, threat modeling
+- **Open-source collaboration** – infrastructure tooling, security, and DevOps
+- **Indie game development** – small-team production, web/landing delivery
+- **Mentorship** – helping others break into security and systems engineering
+
+**Contact:**
+
+- X: [@mendsec](https://x.com/mendsec)
+- LinkedIn: [in/mendsec](https://www.linkedin.com/in/mendsec)
+- Email: fabiomendes@mailfence.com
+
+---
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mendsec&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mendsec&layout=compact&theme=dark&hide_border=true" alt="Top Languages" />
+</p>

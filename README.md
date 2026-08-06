@@ -55,7 +55,7 @@ Multi-tenant SaaS platform for VPS resale and infrastructure management, built o
 
 ---
 
-### [**odoo-serviceops**](https://github.com/mendsec/odoo-serviceops) · Odoo/Shell/Python
+### **odoo-serviceops** (projeto privado) · Odoo/Shell/Python
 
 Enterprise service delivery platform combining Odoo Community with automation for IT service companies — Docker containerization, CI/CD integration, and custom service-ops modules.
 

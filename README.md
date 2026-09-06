@@ -19,10 +19,11 @@
 
 ## About Me
 
-Cybersecurity analyst with 10+ years across offensive and defensive work, systems
-administration and IT management. I build and operate the boring, load-bearing parts of
-security: hardened Linux fleets, endpoint protection rollouts, scanning tooling, and
-CI/CD pipelines that fail loudly when something is wrong.
+Systems administrator and IT manager with 10+ years running infrastructure, now going
+deep on cybersecurity — offensive and defensive — after years of it being part of the
+job. I build and operate the boring, load-bearing parts of security: hardened Linux
+fleets, endpoint protection rollouts, scanning tooling, and CI/CD pipelines that fail
+loudly when something is wrong.
 
 Most of my public code lives in three places: the **[catnet-io](https://github.com/catnet-io)**
 scanning ecosystem (Go), infrastructure automation for **[MadeiraHackerSpace](https://github.com/MadeiraHackerSpace)**,

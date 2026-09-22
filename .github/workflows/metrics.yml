@@ -15,28 +15,33 @@ concurrency:
 jobs:
   metrics:
     runs-on: ubuntu-latest
+    strategy:
+      # Both jobs commit to the same branch, so they must not overlap.
+      max-parallel: 1
+      matrix:
+        theme: [light, dark]
     steps:
       - name: Overview
         uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: mendsec
-          filename: overview.svg
+          filename: overview-${{ matrix.theme }}.svg
           committer_branch: metrics
           base: header, activity, community, repositories
           config_timezone: Europe/Lisbon
-          config_theme: dark
+          config_theme: ${{ matrix.theme }}
 
       - name: Languages
         uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: mendsec
-          filename: languages.svg
+          filename: languages-${{ matrix.theme }}.svg
           committer_branch: metrics
           base: ""
           config_timezone: Europe/Lisbon
-          config_theme: dark
+          config_theme: ${{ matrix.theme }}
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_languages_ignored: html, css
@@ -47,10 +52,10 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: mendsec
-          filename: calendar.svg
+          filename: calendar-${{ matrix.theme }}.svg
           committer_branch: metrics
           base: ""
           config_timezone: Europe/Lisbon
-          config_theme: dark
+          config_theme: ${{ matrix.theme }}
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year

@@ -134,12 +134,24 @@ Small fixes that solve real Linux desktop problems, kept in sync upstream:
 
 <div align="center">
 
-![Overview](https://raw.githubusercontent.com/mendsec/mendsec/metrics/overview.svg)
-![Streak](https://streak-stats.demolab.com?user=mendsec&theme=github-dark&hide_border=true)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mendsec/mendsec/metrics/overview-dark.svg">
+  <img alt="Overview" src="https://raw.githubusercontent.com/mendsec/mendsec/metrics/overview-light.svg">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=mendsec&hide_border=true&theme=github-dark">
+  <img alt="Streak" src="https://streak-stats.demolab.com?user=mendsec&hide_border=true&theme=default">
+</picture>
 
-![Top Languages](https://raw.githubusercontent.com/mendsec/mendsec/metrics/languages.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mendsec/mendsec/metrics/languages-dark.svg">
+  <img alt="Top Languages" src="https://raw.githubusercontent.com/mendsec/mendsec/metrics/languages-light.svg">
+</picture>
 
-![Calendar](https://raw.githubusercontent.com/mendsec/mendsec/metrics/calendar.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mendsec/mendsec/metrics/calendar-dark.svg">
+  <img alt="Calendar" src="https://raw.githubusercontent.com/mendsec/mendsec/metrics/calendar-light.svg">
+</picture>
 
 </div>
 

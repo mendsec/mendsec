@@ -134,12 +134,12 @@ Small fixes that solve real Linux desktop problems, kept in sync upstream:
 
 <div align="center">
 
-![Overview](https://raw.githubusercontent.com/mendsec/mendsec/main/metrics/overview.svg)
+![Overview](https://raw.githubusercontent.com/mendsec/mendsec/metrics/overview.svg)
 ![Streak](https://streak-stats.demolab.com?user=mendsec&theme=github-dark&hide_border=true)
 
-![Top Languages](https://raw.githubusercontent.com/mendsec/mendsec/main/metrics/languages.svg)
+![Top Languages](https://raw.githubusercontent.com/mendsec/mendsec/metrics/languages.svg)
 
-![Calendar](https://raw.githubusercontent.com/mendsec/mendsec/main/metrics/calendar.svg)
+![Calendar](https://raw.githubusercontent.com/mendsec/mendsec/metrics/calendar.svg)
 
 </div>
 

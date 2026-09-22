@@ -134,12 +134,12 @@ Small fixes that solve real Linux desktop problems, kept in sync upstream:
 
 <div align="center">
 
-![Stats](https://github-readme-stats.vercel.app/api?username=mendsec&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true)
+![Overview](https://raw.githubusercontent.com/mendsec/mendsec/main/metrics/overview.svg)
 ![Streak](https://streak-stats.demolab.com?user=mendsec&theme=github-dark&hide_border=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mendsec&layout=compact&theme=github_dark&hide_border=true&langs_count=8&hide=html,css)
+![Top Languages](https://raw.githubusercontent.com/mendsec/mendsec/main/metrics/languages.svg)
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=mendsec&theme=github-compact&hide_border=true)
+![Calendar](https://raw.githubusercontent.com/mendsec/mendsec/main/metrics/calendar.svg)
 
 </div>
 

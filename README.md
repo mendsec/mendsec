@@ -139,8 +139,8 @@ Small fixes that solve real Linux desktop problems, kept in sync upstream:
   <img alt="Overview" src="https://raw.githubusercontent.com/mendsec/mendsec/metrics/overview-light.svg">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=mendsec&hide_border=true&theme=github-dark">
-  <img alt="Streak" src="https://streak-stats.demolab.com?user=mendsec&hide_border=true&theme=default">
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=mendsec&amp;hide_border=true&amp;theme=github-dark">
+  <img alt="Streak" src="https://streak-stats.demolab.com?user=mendsec&amp;hide_border=true&amp;theme=default">
 </picture>
 
 <picture>

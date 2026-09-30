@@ -19,7 +19,7 @@ ORGS = ["catnet-io", "barahn", "fabrintek", "MadeiraHackerSpace", "portosoft", "
 # Repos that would misrepresent the card, e.g. vendored third-party code.
 SKIPPED = {"AuraOneStudios/unity-open-projects"}
 IGNORED = {"HTML", "CSS"}
-LIMIT = 8
+LIMIT = 10
 
 THEMES = {
     "light": {"text": "#24292f", "muted": "#57606a", "track": "#eaeef2"},

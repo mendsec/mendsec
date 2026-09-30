@@ -39,7 +39,7 @@ jobs:
           filename: overview-${{ matrix.theme }}.svg
           committer_branch: metrics
           base: header, activity, community, repositories
-          config_timezone: Europe/Lisbon
+          config_timezone: America/Porto_Velho
           extras_css: ${{ matrix.css }}
 
       - name: Calendar
@@ -50,7 +50,7 @@ jobs:
           filename: calendar-${{ matrix.theme }}.svg
           committer_branch: metrics
           base: ""
-          config_timezone: Europe/Lisbon
+          config_timezone: America/Porto_Velho
           extras_css: ${{ matrix.css }}
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year

@@ -14,6 +14,7 @@ concurrency:
 
 jobs:
   metrics:
+    name: metrics (${{ matrix.theme }})
     runs-on: ubuntu-latest
     strategy:
       # Both jobs commit to the same branch, so they must not overlap.

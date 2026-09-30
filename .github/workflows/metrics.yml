@@ -19,7 +19,16 @@ jobs:
       # Both jobs commit to the same branch, so they must not overlap.
       max-parallel: 1
       matrix:
-        theme: [light, dark]
+        include:
+          # The classic template is theme-neutral (grey on transparent);
+          # the dark variant lifts text and links to GitHub's dark palette.
+          - theme: light
+            css: ""
+          - theme: dark
+            css: |
+              svg { color: #c9d1d9; }
+              svg svg { fill: #8b949e; }
+              a { color: #58a6ff; }
     steps:
       - name: Overview
         uses: lowlighter/metrics@v3.34
@@ -30,7 +39,7 @@ jobs:
           committer_branch: metrics
           base: header, activity, community, repositories
           config_timezone: Europe/Lisbon
-          config_theme: ${{ matrix.theme }}
+          extras_css: ${{ matrix.css }}
 
       - name: Languages
         uses: lowlighter/metrics@v3.34
@@ -42,7 +51,12 @@ jobs:
           base: ""
           # Most Go lives in org repos, so count orgs too, but only an
           # allowlist: membership in large orgs would otherwise dominate.
-          repositories: 250
+          # metrics v3.34 only ever fetches the first page (it stops when a page
+          # is smaller than `repositories`, and never retries after halving a
+          # batch that timed out), so both must match and fit in one request.
+          # 50 times out; 45 misses only the 6 oldest of 51 repos.
+          repositories: 45
+          repositories_batch: 45
           repositories_affiliations: owner, organization_member
           repositories_skipped: |
             @use.patterns
@@ -53,7 +67,7 @@ jobs:
             +fabrintek/*
             +MadeiraHackerSpace/*
           config_timezone: Europe/Lisbon
-          config_theme: ${{ matrix.theme }}
+          extras_css: ${{ matrix.css }}
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_languages_ignored: html, css
@@ -68,6 +82,6 @@ jobs:
           committer_branch: metrics
           base: ""
           config_timezone: Europe/Lisbon
-          config_theme: ${{ matrix.theme }}
+          extras_css: ${{ matrix.css }}
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year

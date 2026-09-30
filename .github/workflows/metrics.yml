@@ -49,23 +49,6 @@ jobs:
           filename: languages-${{ matrix.theme }}.svg
           committer_branch: metrics
           base: ""
-          # Most Go lives in org repos, so count orgs too, but only an
-          # allowlist: membership in large orgs would otherwise dominate.
-          # metrics v3.34 only ever fetches the first page (it stops when a page
-          # is smaller than `repositories`, and never retries after halving a
-          # batch that timed out), so both must match and fit in one request.
-          # 50 times out; 45 misses only the 6 oldest of 51 repos.
-          repositories: 45
-          repositories_batch: 45
-          repositories_affiliations: owner, organization_member
-          repositories_skipped: |
-            @use.patterns
-            -*/*
-            +mendsec/*
-            +catnet-io/*
-            +barahn/*
-            +fabrintek/*
-            +MadeiraHackerSpace/*
           config_timezone: Europe/Lisbon
           extras_css: ${{ matrix.css }}
           plugin_languages: yes

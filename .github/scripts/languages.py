@@ -15,7 +15,9 @@ import urllib.request
 from html import escape
 
 USER = "mendsec"
-ORGS = ["catnet-io", "barahn", "fabrintek", "MadeiraHackerSpace", "portosoft"]
+ORGS = ["catnet-io", "barahn", "fabrintek", "MadeiraHackerSpace", "portosoft", "AuraOneStudios"]
+# Repos that would misrepresent the card, e.g. vendored third-party code.
+SKIPPED = {"AuraOneStudios/unity-open-projects"}
 IGNORED = {"HTML", "CSS"}
 LIMIT = 8
 
@@ -35,7 +37,7 @@ query($login: String!, $after: String, $user: Boolean!) {
 }
 fragment page on RepositoryConnection {
   pageInfo { hasNextPage endCursor }
-  nodes { languages(first: 20) { edges { size node { name color } } } }
+  nodes { nameWithOwner languages(first: 20) { edges { size node { name color } } } }
 }
 """
 
@@ -61,6 +63,8 @@ def collect():
             data = graphql({"login": login, "after": after, "user": is_user})
             conn = data["user" if is_user else "organization"]["repositories"]
             for repo in conn["nodes"]:
+                if repo["nameWithOwner"] in SKIPPED:
+                    continue
                 for edge in repo["languages"]["edges"]:
                     name = edge["node"]["name"]
                     sizes[name] = sizes.get(name, 0) + edge["size"]

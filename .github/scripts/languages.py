@@ -15,7 +15,7 @@ import urllib.request
 from html import escape
 
 USER = "mendsec"
-ORGS = ["catnet-io", "barahn", "fabrintek", "MadeiraHackerSpace"]
+ORGS = ["catnet-io", "barahn", "fabrintek", "MadeiraHackerSpace", "portosoft"]
 IGNORED = {"HTML", "CSS"}
 LIMIT = 8
 

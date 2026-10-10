@@ -5,38 +5,38 @@
 <clipPath id="bar"><rect x="0" y="28" width="480" height="8" rx="4"/></clipPath>
 <rect x="0" y="28" width="480" height="8" rx="4" fill="#21262d"/>
 <g clip-path="url(#bar)">
-<rect x="0.00" y="28" width="249.37" height="8" fill="#00ADD8"/>
-<rect x="249.37" y="28" width="119.00" height="8" fill="#3572A5"/>
-<rect x="368.37" y="28" width="55.77" height="8" fill="#3178c6"/>
-<rect x="424.14" y="28" width="22.99" height="8" fill="#89e051"/>
-<rect x="447.13" y="28" width="11.98" height="8" fill="#00B4AB"/>
-<rect x="459.11" y="28" width="8.72" height="8" fill="#f1e05a"/>
-<rect x="467.83" y="28" width="3.64" height="8" fill="#f34b7d"/>
-<rect x="471.47" y="28" width="3.01" height="8" fill="#012456"/>
-<rect x="474.48" y="28" width="2.85" height="8" fill="#DA3434"/>
-<rect x="477.32" y="28" width="2.68" height="8" fill="#555555"/>
+<rect x="0.00" y="28" width="257.10" height="8" fill="#00ADD8"/>
+<rect x="257.10" y="28" width="114.48" height="8" fill="#3572A5"/>
+<rect x="371.57" y="28" width="53.65" height="8" fill="#3178c6"/>
+<rect x="425.23" y="28" width="23.15" height="8" fill="#89e051"/>
+<rect x="448.38" y="28" width="11.52" height="8" fill="#00B4AB"/>
+<rect x="459.90" y="28" width="8.39" height="8" fill="#f1e05a"/>
+<rect x="468.29" y="28" width="3.50" height="8" fill="#f34b7d"/>
+<rect x="471.80" y="28" width="2.89" height="8" fill="#012456"/>
+<rect x="474.69" y="28" width="2.74" height="8" fill="#DA3434"/>
+<rect x="477.43" y="28" width="2.57" height="8" fill="#555555"/>
 </g>
 <circle cx="5" cy="56" r="5" fill="#00ADD8"/>
 <text x="16" y="60" font-size="13" fill="#c9d1d9">Go</text>
-<text x="230" y="60" font-size="12" text-anchor="end" fill="#8b949e">52.0%</text>
+<text x="230" y="60" font-size="12" text-anchor="end" fill="#8b949e">53.6%</text>
 <circle cx="245" cy="56" r="5" fill="#3572A5"/>
 <text x="256" y="60" font-size="13" fill="#c9d1d9">Python</text>
-<text x="470" y="60" font-size="12" text-anchor="end" fill="#8b949e">24.8%</text>
+<text x="470" y="60" font-size="12" text-anchor="end" fill="#8b949e">23.8%</text>
 <circle cx="5" cy="78" r="5" fill="#3178c6"/>
 <text x="16" y="82" font-size="13" fill="#c9d1d9">TypeScript</text>
-<text x="230" y="82" font-size="12" text-anchor="end" fill="#8b949e">11.6%</text>
+<text x="230" y="82" font-size="12" text-anchor="end" fill="#8b949e">11.2%</text>
 <circle cx="245" cy="78" r="5" fill="#89e051"/>
 <text x="256" y="82" font-size="13" fill="#c9d1d9">Shell</text>
 <text x="470" y="82" font-size="12" text-anchor="end" fill="#8b949e">4.8%</text>
 <circle cx="5" cy="100" r="5" fill="#00B4AB"/>
 <text x="16" y="104" font-size="13" fill="#c9d1d9">Dart</text>
-<text x="230" y="104" font-size="12" text-anchor="end" fill="#8b949e">2.5%</text>
+<text x="230" y="104" font-size="12" text-anchor="end" fill="#8b949e">2.4%</text>
 <circle cx="245" cy="100" r="5" fill="#f1e05a"/>
 <text x="256" y="104" font-size="13" fill="#c9d1d9">JavaScript</text>
-<text x="470" y="104" font-size="12" text-anchor="end" fill="#8b949e">1.8%</text>
+<text x="470" y="104" font-size="12" text-anchor="end" fill="#8b949e">1.7%</text>
 <circle cx="5" cy="122" r="5" fill="#f34b7d"/>
 <text x="16" y="126" font-size="13" fill="#c9d1d9">C++</text>
-<text x="230" y="126" font-size="12" text-anchor="end" fill="#8b949e">0.8%</text>
+<text x="230" y="126" font-size="12" text-anchor="end" fill="#8b949e">0.7%</text>
 <circle cx="245" cy="122" r="5" fill="#012456"/>
 <text x="256" y="126" font-size="13" fill="#c9d1d9">PowerShell</text>
 <text x="470" y="126" font-size="12" text-anchor="end" fill="#8b949e">0.6%</text>
@@ -45,5 +45,5 @@
 <text x="230" y="148" font-size="12" text-anchor="end" fill="#8b949e">0.6%</text>
 <circle cx="245" cy="144" r="5" fill="#555555"/>
 <text x="256" y="148" font-size="13" fill="#c9d1d9">C</text>
-<text x="470" y="148" font-size="12" text-anchor="end" fill="#8b949e">0.6%</text>
+<text x="470" y="148" font-size="12" text-anchor="end" fill="#8b949e">0.5%</text>
 </svg>

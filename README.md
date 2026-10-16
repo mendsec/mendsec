@@ -10,6 +10,7 @@
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/mendsec)
 [![Email](https://img.shields.io/badge/Email-3A76F0?style=for-the-badge&logo=mailfence&logoColor=white)](mailto:fabiomendes@mailfence.com)
 [![CatNet](https://img.shields.io/badge/catnet--io-00875A?style=for-the-badge&logo=go&logoColor=white)](https://github.com/catnet-io)
+[![Sponsor](https://img.shields.io/badge/Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/mendsec)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=mendsec&abbreviated=true&style=for-the-badge&color=00875A)
 
@@ -154,6 +155,46 @@ Small fixes that solve real Linux desktop problems, kept in sync upstream:
 </picture>
 
 </div>
+
+---
+
+## Support / Apoie
+
+Se algum dos meus projetos, ferramentas de segurança, runbooks ou automações foi útil para você ou para a sua equipe, e você quiser apoiar a manutenção e o desenvolvimento contínuo de soluções open-source, considere fazer uma contribuição. Qualquer apoio ajuda diretamente a manter a infraestrutura de testes, laboratórios e novas ferramentas ativas.
+
+*If any of my projects, security tools, runbooks, or automations have been useful to you or your team, and you'd like to support ongoing open-source development, consider making a contribution. Any support directly helps maintain testing labs, infrastructure, and new tooling.*
+
+<div align="center">
+
+[![GitHub Sponsors](https://img.shields.io/badge/GitHub_Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/mendsec)
+[![Patreon](https://img.shields.io/badge/Patreon-FF424D?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/c/mendsec)
+[![Pix](https://img.shields.io/badge/Pix-32BCAD?style=for-the-badge&logo=pix&logoColor=white)](#chave-pix)
+
+</div>
+
+<a id="chave-pix"></a>
+### 🔑 Pix (Brasil)
+
+<div align="center">
+  <img src="assets/pix-qr.png" width="180" alt="Pix QR Code" />
+</div>
+
+```text
+fabiomendes@mailfence.com
+```
+
+> **Tipo de chave:** E-mail · **Favorecido:** Fábio Mendes da Silva  
+> *Key type: Email · Beneficiary: Fábio Mendes da Silva*
+
+<details>
+<summary>📋 <b>Pix Copia e Cola / Copy-Paste Payload</b></summary>
+<br>
+
+```text
+00020126470014BR.GOV.BCB.PIX0125fabiomendes@mailfence.com5204000053039865802BR5921Fabio Mendes da Silva6009SAO PAULO62140510no0NF4PlOY63045EEB
+```
+
+</details>
 
 ---
 
